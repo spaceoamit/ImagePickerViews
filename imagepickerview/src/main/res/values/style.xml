@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="alert_item_style">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+
+    </style>
+
+    <style name="bottom_sheet_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+
+    </style>
+
+
+</resources>

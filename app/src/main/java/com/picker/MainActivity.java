@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
 import com.imagepickerview.ImagePickerUtils;
 import com.imagepickerview.ImagePickerUtils.ActionCallBack;
 import com.miguelbcr.ui.rx_paparazzo2.RxPaparazzo;
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     imgUtils = new ImagePickerUtils.Builder(MainActivity.this)
-        .setShowRemove(true)
+        .setShowRemove(false)
         .build();
 
     //for Crop feature & get customization
@@ -34,10 +36,19 @@ public class MainActivity extends AppCompatActivity {
     options.setStatusBarColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
     options.setActiveWidgetColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
     options.setAspectRatio(1, 1);
+
+    ImageView img = findViewById(R.id.img);
+    img.setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        onClickPickture();
+      }
+    });
+
   }
 
 
-  public void onClickPickture(View mView) {
+  public void onClickPickture() {
 
     imgUtils.showBottomSheet(getSupportFragmentManager(), new ActionCallBack() {
       @Override

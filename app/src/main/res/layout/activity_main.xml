@@ -8,10 +8,11 @@
   tools:context="com.picker.MainActivity">
 
   <ImageView
+    android:id="@+id/img"
     android:layout_width="200dp"
     android:layout_height="200dp"
     android:background="@color/colorPrimary"
-    android:onClick="onClickPickture"
+
     />
 
 </LinearLayout>

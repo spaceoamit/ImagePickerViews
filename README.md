@@ -15,6 +15,7 @@ Add dependencies
 	}
 ```
 
+![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/device-2018-03-13-175408.png)
 
 
 Use code to create Object

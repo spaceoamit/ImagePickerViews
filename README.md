@@ -9,12 +9,12 @@ Add dependencies
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
+  <code>
   dependencies {
 	        compile 'com.github.spaceoamit:ImagePickerViews:-SNAPSHOT'
 	}
   
-  
+</code>
 Use code to create Object
 
 ImagePickerUtils imgUtils = new ImagePickerUtils.Builder(MainActivity.this)

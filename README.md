@@ -15,7 +15,10 @@ Add dependencies
 	}
 ```
 
-![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/device-2018-03-13-175408.png)
+![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/screens/device-2018-03-13-175408.png)
+![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/screens/device-2018-03-13-175444.png)
+![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/screens/device-2018-03-13-181139.png)
+![alt text](https://github.com/spaceoamit/ImagePickerViews/blob/master/screens/device-2018-03-13-181211.png)
 
 
 Use code to create Object

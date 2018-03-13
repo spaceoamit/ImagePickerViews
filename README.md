@@ -18,13 +18,13 @@ Add dependencies
 
 
 Use code to create Object
-`
+```java
 ImagePickerUtils imgUtils = new ImagePickerUtils.Builder(MainActivity.this)
         .setShowRemove(false)
         .build();
-  `     
+  ```     
 Use code to create Dialog for image picker
-`
+```java
 imgUtils.showDialog(new ImagePickerUtils.ActionCallBack() {
       @Override
       public void onCameraClick() {
@@ -38,9 +38,9 @@ imgUtils.showDialog(new ImagePickerUtils.ActionCallBack() {
         callGallary();
       }
     });
-    `
+    ```
 Use code to create Bottomsheet for image picker
-`
+``` java
    imgUtils.showBottomSheet(getSupportFragmentManager(), new ActionCallBack() {
       @Override
       public void onCameraClick() {
@@ -52,11 +52,11 @@ Use code to create Bottomsheet for image picker
 
       }
     });
-    `
+    ```
     
  Use methods for congiguration
  
- `
+ ```java
         .setShowRemove(false)
         .setCameraText("Take image")
         .setGalleryText("Select image")
@@ -64,7 +64,7 @@ Use code to create Bottomsheet for image picker
         .setBottomSheetIconBg(R.drawable...)
         .setCameraRes(R.drawable...)
         .....
-        `
+        ```
         
         
  

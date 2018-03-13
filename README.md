@@ -2,7 +2,7 @@
 
 
 Add dependencies
-`
+``` java
 	allprojects {
 		repositories {
 			...
@@ -13,7 +13,7 @@ Add dependencies
   dependencies {
 	        compile 'com.github.spaceoamit:ImagePickerViews:-SNAPSHOT'
 	}
-  `
+  ```
 
 
 

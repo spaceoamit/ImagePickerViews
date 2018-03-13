@@ -13,18 +13,24 @@ Add dependencies
   dependencies {
 	        compile 'com.github.spaceoamit:ImagePickerViews:-SNAPSHOT'
 	}
-  ```
+```
 
 
 
 Use code to create Object
-```java
+``` java
 ImagePickerUtils imgUtils = new ImagePickerUtils.Builder(MainActivity.this)
         .setShowRemove(false)
         .build();
-  ```     
+```     
+  
+  
+  
 Use code to create Dialog for image picker
-```java
+
+
+
+``` java
 imgUtils.showDialog(new ImagePickerUtils.ActionCallBack() {
       @Override
       public void onCameraClick() {
@@ -38,7 +44,9 @@ imgUtils.showDialog(new ImagePickerUtils.ActionCallBack() {
         callGallary();
       }
     });
-    ```
+```
+    
+    
 Use code to create Bottomsheet for image picker
 ``` java
    imgUtils.showBottomSheet(getSupportFragmentManager(), new ActionCallBack() {
@@ -52,11 +60,13 @@ Use code to create Bottomsheet for image picker
 
       }
     });
-    ```
+```
+    
+    
     
  Use methods for congiguration
  
- ```java
+ ``` java
         .setShowRemove(false)
         .setCameraText("Take image")
         .setGalleryText("Select image")
@@ -64,7 +74,7 @@ Use code to create Bottomsheet for image picker
         .setBottomSheetIconBg(R.drawable...)
         .setCameraRes(R.drawable...)
         .....
-        ```
+```
         
         
  
